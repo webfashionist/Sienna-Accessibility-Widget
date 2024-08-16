@@ -5,6 +5,7 @@
 [![GitHub license](https://img.shields.io/github/license/bennyluk/Sienna-Accessibility-Widget)](https://github.com/bennyluk/Sienna-Accessibility-Widget/blob/master/LICENSE)
 [![GitHub release](https://img.shields.io/github/v/release/bennyluk/Sienna-Accessibility-Widget)](https://github.com/bennyluk/Sienna-Accessibility-Widget/releases)
 [![GitHub issues](https://img.shields.io/github/issues/bennyluk/Sienna-Accessibility-Widget)](https://github.com/bennyluk/Sienna-Accessibility-Widget/issues)
+[![Accessibility pa11y](https://github.com/webfashionist/Sienna-Accessibility-Widget/actions/workflows/accessibility.yml/badge.svg)](https://github.com/webfashionist/Sienna-Accessibility-Widget/actions/workflows/accessibility.yml)
 
 Sienna: accessibility widget for websites. easy to install, just copy and paste the plugin. Fast performance with lightweight plugin (~30kb).
 
@@ -45,7 +46,7 @@ Sienna: accessibility widget for websites. easy to install, just copy and paste 
 
 ## 📝 How to Use
 
-Use the `sienna.min.js` file in the `dist` folder. You can include it in your HTML file like this:
+Use the `sienna.min.js` file in the `build` folder. You can include it in your HTML file like this:
 ```html
 <script defer src="/dist/sienna.min.js"></script>
 ```
