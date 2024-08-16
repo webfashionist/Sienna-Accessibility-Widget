@@ -24,6 +24,9 @@ jobs:
       - name: Install npm dependencies
         run: npm install
 
+      - name: Run webpack
+        run: npm run prod && cp ./dist/sienna.min.js ./build/sienna.min.js
+
       - name: Serve Files
         run: nohup php -S localhost:8080 -t examples/ &
 
